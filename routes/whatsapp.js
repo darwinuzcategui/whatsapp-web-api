@@ -28,7 +28,7 @@ client.on('ready', () => {
 
 client.on('message_create', message => {
 
-    console.log('Mensaje recibido:', message.body);
+    // console.log('Mensaje recibido:', message.body);
 
     // Guardar los mensajes entrantes
     receivedMessages.push({
@@ -122,7 +122,7 @@ router.get('/', (req, res) => {
             "El número debe incluir código de país sin signos (ej: 584241234567)",
             "Los mensajes se almacenan en memoria (se pierden al reiniciar el servidor)"
         ],
-        repository: "https://github.com/darwinuzcategui/servidorwhasapa"
+        repository: "https://github.com/darwinuzcategui/whatsapp-web-api"
     };
     
     res.json({
