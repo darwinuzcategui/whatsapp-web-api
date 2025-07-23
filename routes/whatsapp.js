@@ -27,7 +27,7 @@ client.on('ready', () => {
 
 
 client.on('message_create', message => {
-    /*
+
     console.log('Mensaje recibido:', message.body);
 
     // Guardar los mensajes entrantes
@@ -37,7 +37,7 @@ client.on('message_create', message => {
         body: message.body,
         timestamp: message.timestamp,
     });
-*/
+
     // Ejemplo de respuesta a un comando específico
     if (message.body === '!ping') {
         message.reply('pong');
