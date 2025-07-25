@@ -107,7 +107,7 @@ router.get('/', (req, res) => {
                         {
                             id: "3EB0F403D95F806E2D",
                             from: "584241234567@c.us",
-                            body: "Hola, cómo estás?",``
+                            body: "Hola, cómo estás?",
                             timestamp: 1625097600
                         }
                     ]
