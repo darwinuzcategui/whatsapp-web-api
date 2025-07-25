@@ -7,7 +7,7 @@ const qrcode = require('qrcode-terminal');
 // Inicializar el cliente de WhatsApp
 const client = new Client({
     puppeteer: {
-        headless: true,
+        headless: true, // false sale el navegador 
     },
 });
 
@@ -39,8 +39,8 @@ client.on('message_create', message => {
     });
 
     // Ejemplo de respuesta a un comando específico
-    if (message.body === '!ping') {
-        message.reply('pong');
+    if (message.body === 'Saldo') {
+        message.reply('su saldo es 125550.11');
     }
 });
 
@@ -49,15 +49,15 @@ client.initialize();
 
 // Endpoint para enviar un mensaje
 router.post('/send', async (req, res) => {
-    const { numeroDestino, mensaje } = req.body;
+    const { toPhoneNumber, message } = req.body;
 
-    if (!numeroDestino || !mensaje) {
+    if (!toPhoneNumber || !message) {
         return res.status(400).json({ error: 'Número de destino y mensaje son requeridos' });
     }
 
     try {
-        const chatId = `${numeroDestino}@c.us`;
-        const response = await client.sendMessage(chatId, mensaje);
+        const chatId = `${toPhoneNumber}@c.us`;
+        const response = await client.sendMessage(chatId, message);
         res.json({ message: 'Mensaje enviado', response });
     } catch (error) {
         console.error('Error al enviar mensaje:', error);
@@ -85,8 +85,8 @@ router.get('/', (req, res) => {
                 description: "Envía un mensaje a un número de WhatsApp",
                 requestExample: {
                     body: {
-                        numeroDestino: "584241234567",
-                        mensaje: "Hola, esto es un mensaje de prueba"
+                        toPhoneNumber: "584241234567",
+                        message: "Hola, esto es un mensaje de prueba"
                     }
                 },
                 responseExample: {
