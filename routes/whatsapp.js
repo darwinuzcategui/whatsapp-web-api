@@ -44,8 +44,8 @@ client.on('message_create', message => {
     //    message.reply('su saldo es  Bs. XXXXX,XX');
    //}
    
-    if (!message.body.toLowerCase().startsWith('apuestasx:') && !message.body.toLowerCase().startsWith('Esta es una cuenta de whatsapp no monitoreada') ) {
-        const autoReply = 'Esta es una cuenta de whatsapp no monitoreada, *comuniquese directamente con atención al cliente.*';
+    if (!message.body.toLowerCase().startsWith('apuestasx:') && !message.body.toLowerCase().startsWith('Gracias por contactarnos') ) {
+        const autoReply = 'Gracias por contactarnos. Este es un canal de respuesta automática. Para una atención personalizada, *por favor comuníquese directamente con nuestro equipo de atención al cliente.*';
     
         if (message.body !== autoReply) {
             message.reply(autoReply);
