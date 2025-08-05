@@ -6,7 +6,7 @@
 .pnp.js
 .wwebjs_cache
 .exe
-
+.bat
 # testing
 /coverage
 
