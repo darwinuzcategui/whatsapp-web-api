@@ -30,7 +30,6 @@ client.on('ready', () => {
 
 client.on('message_create', message => {
 
-    // console.log('Mensaje recibido:', message.body);
 
     // Guardar los mensajes entrantes
     receivedMessages.push({
