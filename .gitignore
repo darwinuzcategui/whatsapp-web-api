@@ -5,6 +5,8 @@
 /.pnp
 .pnp.js
 .wwebjs_cache
+.exe
+
 # testing
 /coverage
 
