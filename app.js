@@ -24,6 +24,6 @@ app.use((err, req, res, next) => {
 
 
 app.listen(port, () => {
-    console.log("debe leer el codigo QR CON SU Whastapp");
+    console.log("debe leer el codigo QR CON SU Whastapp.");
     console.log(`Servidor escuchando en http://localhost:${port}`);
 });

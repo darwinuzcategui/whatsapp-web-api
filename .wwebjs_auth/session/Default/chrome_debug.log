@@ -1,0 +1,33 @@
+[0728/150701.534:INFO:CONSOLE(163)] "Event handler of 'x-storagemutated-1' event must be added on the initial evaluation of worker script.", source: https://static.whatsapp.net/rsrc.php/v4/yO/r/f3ULFBNx5t1.js (163)
+[0728/150704.468:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Feature xr-spatial-tracking's parameters are ignored.", source:  (0)
+[0728/150704.468:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Origin trial controlled feature not enabled: 'attribution-reporting'.", source:  (0)
+[0728/150704.468:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Unrecognized feature: 'compute-pressure'.", source:  (0)
+[0728/150704.469:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Origin trial controlled feature not enabled: 'interest-cohort'.", source:  (0)
+[0728/150704.469:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Unrecognized feature: 'private-state-token-issuance'.", source:  (0)
+[0728/150704.470:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Origin trial controlled feature not enabled: 'shared-storage'.", source:  (0)
+[0728/150704.470:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Unrecognized feature: 'shared-storage-select-url'.", source:  (0)
+[0728/150704.470:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Unrecognized feature: 'private-state-token-redemption'.", source:  (0)
+[0728/150704.470:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Unrecognized feature: 'unload'.", source:  (0)
+[0728/150704.470:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Unrecognized feature: 'window-management'.", source:  (0)
+[0728/150704.470:INFO:CONSOLE(0)] "Document-Policy HTTP header: Unrecognized document policy feature name include-js-call-stacks-in-crash-reports.", source: https://web.whatsapp.com/ (0)
+[0728/150706.607:INFO:CONSOLE(163)] "Event handler of 'x-storagemutated-1' event must be added on the initial evaluation of worker script.", source: https://static.whatsapp.net/rsrc.php/v4/yV/r/pCUZv6GlvUV.js (163)
+[0728/150710.421:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Feature xr-spatial-tracking's parameters are ignored.", source:  (0)
+[0728/150710.421:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Origin trial controlled feature not enabled: 'attribution-reporting'.", source:  (0)
+[0728/150710.421:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Unrecognized feature: 'compute-pressure'.", source:  (0)
+[0728/150710.421:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Origin trial controlled feature not enabled: 'interest-cohort'.", source:  (0)
+[0728/150710.421:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Unrecognized feature: 'private-state-token-issuance'.", source:  (0)
+[0728/150710.421:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Origin trial controlled feature not enabled: 'shared-storage'.", source:  (0)
+[0728/150710.421:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Unrecognized feature: 'shared-storage-select-url'.", source:  (0)
+[0728/150710.421:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Unrecognized feature: 'private-state-token-redemption'.", source:  (0)
+[0728/150710.421:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Unrecognized feature: 'unload'.", source:  (0)
+[0728/150710.421:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Unrecognized feature: 'window-management'.", source:  (0)
+[0728/150710.421:INFO:CONSOLE(0)] "Document-Policy HTTP header: Unrecognized document policy feature name include-js-call-stacks-in-crash-reports.", source: https://web.whatsapp.com/ (0)
+[0728/150710.897:ERROR:entry_impl.cc(1072)] No file for 80000084
+[0728/150710.897:ERROR:entry_impl.cc(1072)] No file for 80000082
+[0728/150710.898:ERROR:entry_impl.cc(1072)] No file for 8000006b
+[0728/150710.898:ERROR:entry_impl.cc(1072)] No file for 80000081
+[0728/150710.898:ERROR:entry_impl.cc(1072)] No file for 80000083
+[0728/150710.898:ERROR:entry_impl.cc(1072)] No file for 8000006f
+[0728/150710.901:ERROR:entry_impl.cc(1072)] No file for 80000085
+[0728/150710.943:ERROR:entry_impl.cc(1072)] No file for 80000011
+[0728/150710.948:ERROR:entry_impl.cc(1072)] No file for 80000010

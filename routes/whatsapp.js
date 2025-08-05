@@ -1,7 +1,7 @@
 // routes/whatsapp.js
 const express = require('express');
 const router = express.Router();
-const { Client } = require('whatsapp-web.js');
+const { Client  } = require('whatsapp-web.js');
 const qrcode = require('qrcode-terminal');
 
 // Inicializar el cliente de WhatsApp
@@ -41,9 +41,17 @@ client.on('message_create', message => {
     });
 
     // Ejemplo de respuesta a un comando específico
-    if (message.body === 'Saldo') {
-        message.reply('su saldo es 125550.11');
-    }
+    //if (message.body === 'Saldo') {
+    //    message.reply('su saldo es  Bs. XXXXX,XX');
+   //}
+   
+    if (!message.body.toLowerCase().startsWith('apuestasx:') && !message.body.toLowerCase().startsWith('Esta es una cuenta de whatsapp no monitoreada') ) {
+        const autoReply = 'Esta es una cuenta de whatsapp no monitoreada, *comuniquese directamente con atención al cliente.*';
+    
+        if (message.body !== autoReply) {
+            message.reply(autoReply);
+        }
+    } 
 });
 
 
