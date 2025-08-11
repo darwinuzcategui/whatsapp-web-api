@@ -42,7 +42,7 @@ npm install
 ```
 ### 6. Ejecutar el servicio
 ```
-nohup node app > codigo.txt 2>&1 &
+nohup node app > codigo.txt  &
 ```
 ### 7. Obtener código QR
 ```
