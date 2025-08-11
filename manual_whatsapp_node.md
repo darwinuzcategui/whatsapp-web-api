@@ -74,3 +74,18 @@ sudo apt-get install -y gconf-service libgbm-dev libasound2 libatk1.0-0 libc6 li
 
 ### YA PUEDE EJECUTAR EL SERVICIO 
 Los paso 6. Ejecutar el servicio y 7. Obtener código QR
+
+### PARA PODER LEER QR Y EL SERVICIO SE MANTEGA ACTIVO 
+## INTALKAR PM2 
+Opción 1: Usar PM2 (Recomendado)
+PM2 es un administrador de procesos para Node.js que mantiene tus aplicaciones activas y permite reinicios automáticos.
+
+Instala PM2 globalmente:
+
+bash
+npm install -g pm2
+Inicia tu aplicación con PM2:
+
+bash
+pm2 start app.js --name "mi-app"
+pm2 start app.js --name "mi-app2" --no-daemon
