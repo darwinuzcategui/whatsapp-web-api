@@ -6,17 +6,14 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node app.js",
-    "dev": "nodemon app.js", 
-    "debug": "nodemon --inspect app.js",  
+    "dev": "nodemon app.js",
+    "debug": "nodemon --inspect app.js",
     "start:prod": "node app.js",
     "dev:prod": "nodemon --watch app.js --exec node app.js",
     "build": "webpack --mode production",
     "build:dev": "webpack --mode development"
-        
-
-      
   },
-   "keywords": [],
+  "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {

@@ -4,6 +4,7 @@ const cors = require('cors');
 const bodyParser = require('body-parser');
 const app = express();
 const port = 3000;
+//const { exec } = require('pkg');
 
 // Importar rutas
 const whatsappRoutes = require('./routes/whatsapp');
@@ -23,6 +24,6 @@ app.use((err, req, res, next) => {
 
 
 app.listen(port, () => {
-    console.log("debe leer el codigo QR CON SU Whastapp.");
+    console.log("debe leer el codigo QR CON SU Whastapp");
     console.log(`Servidor escuchando en http://localhost:${port}`);
 });
