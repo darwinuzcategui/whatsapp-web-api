@@ -47,13 +47,13 @@ cd servidorWhatsapp
 ```
 npm install
 ```
-### 6. Ejecutar el servicio
+### 5. Ejecutar el servicio
 ```
-nohup node app > codigo.txt  &
+pm2 start app.js --name "mi-app" --no-daemon
 ```
 ### 7. Obtener código QR
 ```
-cat  codigo.txt
+leer qr de pantalla
 ```
 
 ### EN CASO DE ERROR HAY QUE HACER ESTO PASOS
@@ -88,4 +88,11 @@ Inicia tu aplicación con PM2:
 
 bash
 pm2 start app.js --name "mi-app"
+pm2 start app.js --name "mi-app2" --no-daemon
+
+
+### Solución 5: Ejecutar en modo "attach" para ver la salida directamente
+Si necesitas interactuar con la aplicación (como escanear el QR), puedes ejecutarla en modo "attach":
+
+bash
 pm2 start app.js --name "mi-app2" --no-daemon
