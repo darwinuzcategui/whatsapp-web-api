@@ -102,3 +102,4 @@ Si necesitas interactuar con la aplicación (como escanear el QR), puedes ejecut
 ```bash
 pm2 start app.js --name "mi-app2" --no-daemon
 ```
+-- fin
