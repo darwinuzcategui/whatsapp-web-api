@@ -67,7 +67,7 @@ Ejecuta estos comandos en tu servidor (  distribución Linux):
 
 Para Ubuntu/Debian:
 
-```basH
+```bash
 sudo apt-get update
 sudo apt-get install -y gconf-service libgbm-dev libasound2 libatk1.0-0 libc6 libcairo2 libcups2 libdbus-1-3 libexpat1 libfontconfig1 libgcc1 libgconf-2-4 libgdk-pixbuf2.0-0 libglib2.0-0 libgtk-3-0 libnspr4 libpango-1.0-0 libpangocairo-1.0-0 libstdc++6 libx11-6 libx11-xcb1 libxcb1 libxcomposite1 libxcursor1 libxdamage1 libxext6 libxfixes3 libxi6 libxrandr2 libxrender1 libxss1 libxtst6 ca-certificates fonts-liberation libappindicator1 libnss3 lsb-release xdg-utils wget libdrm2
 ```
@@ -76,23 +76,29 @@ sudo apt-get install -y gconf-service libgbm-dev libasound2 libatk1.0-0 libc6 li
 Los paso 6. Ejecutar el servicio y 7. Obtener código QR
 
 ### PARA PODER LEER QR Y EL SERVICIO SE MANTEGA ACTIVO 
-## INSTALAR PM2 
+## INSTALAR PM2
+
 Opción 1: Usar PM2 (Recomendado)
 PM2 es un administrador de procesos para Node.js que mantiene tus aplicaciones activas y permite reinicios automáticos.
 
 Instala PM2 globalmente:
 
-bash
+```bash
 npm install -g pm2
+```
+
 Inicia tu aplicación con PM2:
 
-bash
+
+```bash
 pm2 start app.js --name "mi-app"
 pm2 start app.js --name "mi-app2" --no-daemon
+```
 
 
 ### Solución 5: Ejecutar en modo "attach" para ver la salida directamente
 Si necesitas interactuar con la aplicación (como escanear el QR), puedes ejecutarla en modo "attach":
 
-bash
+```bash
 pm2 start app.js --name "mi-app2" --no-daemon
+```
